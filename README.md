@@ -12,9 +12,9 @@ Writing shellcode into the allocated memory using WriteProcessMemory.
 Creating a remote thread within the target process to execute the injected shellcode using CreateRemoteThreadEx.
 
 ### Usage
-```program.exe <PID>```
+```program.exe <PID>```.
 In windows, you can locate the PID through this command:
-```tasklist | findstr <program name>```
+```tasklist | findstr <program name>```.
 
 ### Learning Objectives
 The basics of process manipulation and memory allocation in Windows.
