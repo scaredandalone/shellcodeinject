@@ -1,7 +1,7 @@
 ### Remote Process Injection Tool
 This tool demonstrates a basic remote process injection technique using WinAPI functions in C. It allows injecting custom shellcode into a target process identified by its PID.
 
-Note: This tool will likely be detected by Windows Defender and other antivirus software as malicious. I have not explored obfuscation or other evasion techniques.
+Note: This tool will likely be detected by Windows Defender and other antivirus software as malicious. I have not explored obfuscation or other evasion techniques in this project.
 
 ### Description
 This program demonstrates the following:
