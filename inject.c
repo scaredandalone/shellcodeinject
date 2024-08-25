@@ -9,7 +9,7 @@ DWORD PID, TID = NULL; // we need this for openprocess()
 HANDLE hProcess, hThread = NULL;
 LPVOID rBuffer = NULL;
 
-unsigned char shellcode[] = "\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41";
+unsigned char shellcode[] = "\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41"; // <--- change this 
 
 
 int main(int argc, char* argv[]) {
